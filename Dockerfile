@@ -11,7 +11,7 @@ ENV REGENERATE_SSL_CERT false
 ENV START_APACHE true
 ENV START_MYSQL true
 ENV MAX_UPLOAD_SIZE 30G
-ENV TARGET_SUBDIR owncloud
+ENV TARGET_SUBDIR /
 
 # remove info.php
 RUN rm /srv/http/info.php
